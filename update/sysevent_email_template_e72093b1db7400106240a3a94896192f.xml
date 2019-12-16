@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_414840_proposi_e_scp_proposicao_cs</collection>
+        <email_layout display_value="Unsubscribe and Preferences Helvetica">6e23b0973b4b2200c869c2c703efc444</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Sys ID: ${sys_id}</p>
+<p>${sys_<label dir="ltr" for="sys_user.first_name"><span title="" data-html="false" data-original-title="">First name</span></label><input id="sys_user.first_name" spellcheck="false" autocomplete="off" maxlength="50" name="sys_user.first_name" type="text" value="Roberto" aria-required="false" aria-label="First name" /><span id="section_tab.4c08afb7736013001923054dfff6a7af" data-header-only="false" data-section-id="4c08afb7736013001923054dfff6a7af"><span id="section-4c08afb7736013001923054dfff6a7af" data-header-only="false"></span></span>}</p>
+<p>${sys_Email<input id="sys_user.first_name" spellcheck="false" autocomplete="off" maxlength="50" name="sys_user.first_name" type="text" value="Roberto" aria-required="false" aria-label="First name" />}</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[Prezado,
+
+Segue notificação sobre a proposição  PROP_CHV_IDE: ${prop_chv_ide} - PROP_TXT_EMENTA: ${prop_txt_ementa}
+
+Att,]]></message_text>
+        <name>E-mail Posição da Proposição </name>
+        <sms_alternate/>
+        <subject>Notificação</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-30 19:34:00</sys_created_on>
+        <sys_id>e72093b1db7400106240a3a94896192f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>E-mail Posição da Proposição </sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sysevent_email_template_e72093b1db7400106240a3a94896192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-30 20:58:50</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

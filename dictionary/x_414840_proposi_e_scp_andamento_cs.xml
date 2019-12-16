@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Andamento" max_length="40" name="x_414840_proposi_e_scp_andamento_cs" type="collection">
+        <element label="ANDP_CHV_IDE" max_length="40" name="andp_chv_ide" type="integer"/>
+        <element label="ANDP_COD_ORGAO" max_length="40" name="andp_cod_orgao" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="ANDP_DAT" max_length="40" name="andp_dat" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ANDP_DAT_INCL_WS" max_length="40" name="andp_dat_incl_ws" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ANDP_NOM_ORGAO" max_length="69" name="andp_nom_orgao" type="string"/>
+        <element label="ANDP_PROP_CHV_IDE" max_length="40" name="andp_prop_chv_ide" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="ANDP_TXT_DESCRICAO" max_length="567" name="andp_txt_descricao" type="string"/>
+        <element label="AND_PROP_CHV_IDE_WS" max_length="40" name="and_prop_chv_ide_ws" type="integer"/>
+        <element label="List View" max_length="4000" name="list_view" reference="x_414840_proposi_e_scp_orgao_politico" type="glide_list"/>
+        <element label="New Reference" max_length="32" name="new_reference" reference="x_414840_proposi_e_m2m_orgao_politi_andamentos" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="new_reference"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

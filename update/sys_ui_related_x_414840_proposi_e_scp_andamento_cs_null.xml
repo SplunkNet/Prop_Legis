@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_414840_proposi_e_scp_andamento_cs" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Andamento - Default view" name="x_414840_proposi_e_scp_andamento_cs" related_list="NULL" sys_domain="global" view="Default view">52fb65a6dbb440106240a3a948961921</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:d0041b42db3000106240a3a9489619a4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:05</sys_created_on>
+            <sys_id>56fb65a6dbb440106240a3a948961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Andamento - Default view</calculated_name>
+            <filter/>
+            <name>x_414840_proposi_e_scp_andamento_cs</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52fb65a6dbb440106240a3a948961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Andamento - Default view</sys_name>
+            <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+            <sys_update_name>sys_ui_related_x_414840_proposi_e_scp_andamento_cs_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

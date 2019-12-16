@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Computer" max_length="40" name="imp_computer" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="PROP_ANO" max_length="40" name="u_prop_ano" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_BLN_PRE_CAD" max_length="40" name="u_prop_bln_pre_cad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_CASA" max_length="40" name="u_prop_casa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_CHV_IDE" max_length="40" name="u_prop_chv_ide" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_CHV_IDE_PROPOSICAO_WS" max_length="40" name="u_prop_chv_ide_proposicao_ws" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_CHV_USU_CAD" max_length="40" name="u_prop_chv_usu_cad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_ANALISE" max_length="40" name="u_prop_dat_analise" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_CAD" max_length="40" name="u_prop_dat_cad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_PROPOSICAO" max_length="40" name="u_prop_dat_proposicao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_ULT_ATU" max_length="40" name="u_prop_dat_ult_atu" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_ULT_DESPACHO" max_length="40" name="u_prop_dat_ult_despacho" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_LINK" max_length="40" name="u_prop_link" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_NUMERO" max_length="40" name="u_prop_numero" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_REG_TRAMITACAO" max_length="40" name="u_prop_reg_tramitacao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_SGL_ORGAO" max_length="40" name="u_prop_sgl_orgao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_SIT_CASA" max_length="40" name="u_prop_sit_casa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TIPR_CHV_IDE" max_length="40" name="u_prop_tipr_chv_ide" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_APREC" max_length="40" name="u_prop_txt_aprec" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_EMENTA" max_length="40" name="u_prop_txt_ementa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_EXPL_EMENTA" max_length="40" name="u_prop_txt_expl_ementa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_ULT_DESPACHO" max_length="40" name="u_prop_txt_ult_despacho" type="string"/>
+    </element>
+</database>

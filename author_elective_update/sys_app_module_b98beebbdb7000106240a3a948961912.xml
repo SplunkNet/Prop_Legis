@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Relatórios">dee1b56edbb440106240a3a9489619d5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Relatórios</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_414840_proposi_e_relat_rios</name>
+        <order>12</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 21:52:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b98beebbdb7000106240a3a948961912</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Relatórios</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_app_module_b98beebbdb7000106240a3a948961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 22:45:40</sys_updated_on>
+        <timeline_page/>
+        <title>Relatórios</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</application>
+        <file_path/>
+        <instance_id>5f0d90fddba13b048aea21c405961922</instance_id>
+        <instance_name>dev86024</instance_name>
+        <name>sys_app_module_b98beebbdb7000106240a3a948961912</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Relatórios">dee1b56edbb440106240a3a9489619d5</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Relatórios</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_414840_proposi_e_relat_rios</name><order>12</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-05 21:52:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b98beebbdb7000106240a3a948961912</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Relatórios</sys_name><sys_overrides/><sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package><sys_policy/><sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope><sys_update_name>sys_app_module_b98beebbdb7000106240a3a948961912</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-05 22:45:40</sys_updated_on><timeline_page/><title>Relatórios</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>952829862</payload_hash>
+        <record_name>Relatórios</record_name>
+        <reverted_from/>
+        <source>798dcd0adba000106240a3a948961906</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 22:45:40</sys_created_on>
+        <sys_id>11c7fef7dbb000106240a3a94896194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e3dbebda30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 22:45:40</sys_updated_on>
+        <type>Module</type>
+        <update_guid>99c7fef777b00010344fe25069be134d</update_guid>
+        <update_guid_history>99c7fef777b00010344fe25069be134d:952829862,ac74b277d7b00010b6e630a23efac896:859172150,718beebb127000103e497e16dffd5e14:-2004917473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Relatórios">76f77a3bdbb000106240a3a9489619cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 22:46:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>230fcbaa1d2043cfbaeac247bd60ceb1</sys_id>
+        <sys_metadata>b98beebbdb7000106240a3a948961912</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relatórios</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_scope_delete display_value="">29e6bbc8b0b34a9087f9c93b1d8f6c10</sys_scope_delete>
+        <sys_update_name>sys_app_module_b98beebbdb7000106240a3a948961912</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b98beebbdb7000106240a3a948961912">11c7fef7dbb000106240a3a94896194e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-05 22:46:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

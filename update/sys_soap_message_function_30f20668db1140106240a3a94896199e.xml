@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:prop="https://www.camara.gov.br/SitCamaraWS/Proposicoes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <prop:ListarProposicoesTramitadasNoPeriodo>
+         <!--Optional:-->
+         <prop:dtInicio>${ListarProposicoesTramitadasNoPeriodo.dtInicio}</prop:dtInicio>
+         <!--Optional:-->
+         <prop:dtFim>${ListarProposicoesTramitadasNoPeriodo.dtFim}</prop:dtFim>
+      </prop:ListarProposicoesTramitadasNoPeriodo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>ProposicoesSoap.ListarProposicoesTramitadasNoPeriodo</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>RetornaProposiçãoID [ ProposicoesSoap.ListarProposicoesTramitadasNoPeriodo ]</qualified_name>
+        <soap_action>https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoesTramitadasNoPeriodo</soap_action>
+        <soap_endpoint>https://www.camara.leg.br/SitCamaraWS/Proposicoes.asmx</soap_endpoint>
+        <soap_message display_value="RetornaProposiçãoID">087e761cdb5500106240a3a9489619d6</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 13:06:02</sys_created_on>
+        <sys_id>30f20668db1140106240a3a94896199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ProposicoesSoap.ListarProposicoesTramitadasNoPeriodo</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_soap_message_function_30f20668db1140106240a3a94896199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 13:06:02</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c85b1946dbe000106240a3a94896192f" sys_domain="global" table="x_414840_proposi_e_scp_andamento_cs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>892ce9a6dbb440106240a3a94896195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>0d2ce9a6dbb440106240a3a94896195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_chv_ide</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>8d2ce9a6dbb440106240a3a94896195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_prop_chv_ide</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>012ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>812ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_dat_incl_ws</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>052ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_cod_orgao</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>852ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>092ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_txt_descricao</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>892ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>0d2ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_nom_orgao</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>8d2ce9a6dbb440106240a3a94896195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>andp_dat</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>012ce9a6dbb440106240a3a94896195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>812ce9a6dbb440106240a3a94896195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>and_prop_chv_ide_ws</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>052ce9a6dbb440106240a3a94896195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>852ce9a6dbb440106240a3a94896195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_reference</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-01 20:02:50</sys_created_on>
+            <sys_id>092ce9a6dbb440106240a3a94896195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_414840_proposi_e_scp_andamento_cs" sys_domain="global" view="Default view">c85b1946dbe000106240a3a94896192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-01 20:02:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_414840_proposi_e_scp_andamento_cs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-18 19:16:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c85b1946dbe000106240a3a94896192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_414840_proposi_e_scp_andamento_cs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+            <sys_update_name>sys_ui_section_c85b1946dbe000106240a3a94896192f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-18 19:16:40</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

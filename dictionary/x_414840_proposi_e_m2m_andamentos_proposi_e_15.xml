@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Proposi E M2m Andamentos Proposi E 15" max_length="40" name="x_414840_proposi_e_m2m_andamentos_proposi_e_15" type="collection">
+        <element attributes="encode_utf8=false" dependent="proposi_e_1571423586055" dependent_on_field="proposi_e_1571423586055" label="Andamento" max_length="32" name="andamento" reference="x_414840_proposi_e_scp_andamento_cs" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Proposi E 1571423586055" max_length="32" name="proposi_e_1571423586055" reference="x_414840_proposi_e_1571423586055" type="reference"/>
+        <index name="index">
+            <element name="andamento"/>
+        </index>
+        <index name="index2">
+            <element name="proposi_e_1571423586055"/>
+        </index>
+    </element>
+</database>

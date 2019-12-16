@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Relatórios+++</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_414840_proposi_e_relat_rios</name>
+        <number_ref display_value="REL">62357677dbb000106240a3a9489619c1</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-05 21:52:11</sys_created_on>
+        <sys_id>7c4baafbdb7000106240a3a948961934</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Relatórios+++</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_db_object_7c4baafbdb7000106240a3a948961934</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 20:31:22</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_414840_proposi_e.relat_rios_user" name="x_414840_proposi_e.relat_rios_user">dae1b56edbb440106240a3a9489619cb</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</application>
+        <file_path/>
+        <instance_id>5f0d90fddba13b048aea21c405961922</instance_id>
+        <instance_name>dev86024</instance_name>
+        <name>sys_db_object_7c4baafbdb7000106240a3a948961934</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Relatórios+++</label><live_feed_enabled>false</live_feed_enabled><name>x_414840_proposi_e_relat_rios</name><number_ref display_value="REL">62357677dbb000106240a3a9489619c1</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-05 21:52:11</sys_created_on><sys_id>7c4baafbdb7000106240a3a948961934</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Relatórios+++</sys_name><sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package><sys_policy/><sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope><sys_update_name>sys_db_object_7c4baafbdb7000106240a3a948961934</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-12 20:31:22</sys_updated_on><update_access>false</update_access><user_role display_value="x_414840_proposi_e.relat_rios_user" name="x_414840_proposi_e.relat_rios_user">dae1b56edbb440106240a3a9489619cb</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1312414961</payload_hash>
+        <record_name>Relatórios+++</record_name>
+        <reverted_from/>
+        <source>798dcd0adba000106240a3a948961906</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 20:31:22</sys_created_on>
+        <sys_id>962cd206db8100106240a3a9489619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e61504b850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 20:31:22</sys_updated_on>
+        <type>Table</type>
+        <update_guid>122cd2064d810010b1f943127e3075dc</update_guid>
+        <update_guid_history>122cd2064d810010b1f943127e3075dc:1312414961,ea3576773db00010b072e25384bcfac5:1901864825,128b227feb700010f5af626d39b81b16:-1811086501</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 20:32:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0544d1398fb14d978996f20dfa46e759</sys_id>
+        <sys_metadata>7c4baafbdb7000106240a3a948961934</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Relatórios+++</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_scope_delete display_value="">29e6bbc8b0b34a9087f9c93b1d8f6c10</sys_scope_delete>
+        <sys_update_name>sys_db_object_7c4baafbdb7000106240a3a948961934</sys_update_name>
+        <sys_update_version display_value="sys_db_object_7c4baafbdb7000106240a3a948961934">962cd206db8100106240a3a9489619dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 20:32:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

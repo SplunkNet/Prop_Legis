@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="DELETE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:calculaTarifaServico>
+         <!--Optional:-->
+         <codAdministrativo>${calculaTarifaServico.codAdministrativo}</codAdministrativo>
+         <!--Optional:-->
+         <usuario>${calculaTarifaServico.usuario}</usuario>
+         <!--Optional:-->
+         <senha>${calculaTarifaServico.senha}</senha>
+         <!--Optional:-->
+         <codServico>${calculaTarifaServico.codServico}</codServico>
+         <!--Optional:-->
+         <cepOrigem>${calculaTarifaServico.cepOrigem}</cepOrigem>
+         <!--Optional:-->
+         <cepDestino>${calculaTarifaServico.cepDestino}</cepDestino>
+         <!--Optional:-->
+         <peso>${calculaTarifaServico.peso}</peso>
+         <!--Optional:-->
+         <codFormato>${calculaTarifaServico.codFormato}</codFormato>
+         <!--Optional:-->
+         <comprimento>${calculaTarifaServico.comprimento}</comprimento>
+         <!--Optional:-->
+         <altura>${calculaTarifaServico.altura}</altura>
+         <!--Optional:-->
+         <largura>${calculaTarifaServico.largura}</largura>
+         <!--Optional:-->
+         <diametro>${calculaTarifaServico.diametro}</diametro>
+         <!--Optional:-->
+         <codMaoPropria>${calculaTarifaServico.codMaoPropria}</codMaoPropria>
+         <!--Optional:-->
+         <valorDeclarado>${calculaTarifaServico.valorDeclarado}</valorDeclarado>
+         <!--Optional:-->
+         <codAvisoRecebimento>${calculaTarifaServico.codAvisoRecebimento}</codAvisoRecebimento>
+      </cli:calculaTarifaServico>
+   </soapenv:Body>
+</soapenv:Envelope>]]></envelope>
+        <function_name>calculaTarifaServico</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>Correios [ calculaTarifaServico ]</qualified_name>
+        <soap_action/>
+        <soap_endpoint>https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente</soap_endpoint>
+        <soap_message display_value="Correios">e69ad514db1100106240a3a948961921</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-19 15:32:07</sys_created_on>
+        <sys_id>0fca9d14db1100106240a3a948961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>calculaTarifaServico</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_soap_message_function_0fca9d14db1100106240a3a948961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-19 15:32:07</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</application>
+        <file_path/>
+        <instance_id>5f0d90fddba13b048aea21c405961922</instance_id>
+        <instance_name>dev86024</instance_name>
+        <name>sys_soap_message_function_0fca9d14db1100106240a3a948961906</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_soap_message_function"&gt;&lt;sys_soap_message_function action="INSERT_OR_UPDATE"&gt;&lt;authentication_type/&gt;&lt;basic_auth_password/&gt;&lt;basic_auth_profile/&gt;&lt;basic_auth_user/&gt;&lt;certificate/&gt;&lt;enable_mutual_auth&gt;false&lt;/enable_mutual_auth&gt;&lt;envelope&gt;&lt;![CDATA[&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;cli:calculaTarifaServico&gt;
+         &lt;!--Optional:--&gt;
+         &lt;codAdministrativo&gt;${calculaTarifaServico.codAdministrativo}&lt;/codAdministrativo&gt;
+         &lt;!--Optional:--&gt;
+         &lt;usuario&gt;${calculaTarifaServico.usuario}&lt;/usuario&gt;
+         &lt;!--Optional:--&gt;
+         &lt;senha&gt;${calculaTarifaServico.senha}&lt;/senha&gt;
+         &lt;!--Optional:--&gt;
+         &lt;codServico&gt;${calculaTarifaServico.codServico}&lt;/codServico&gt;
+         &lt;!--Optional:--&gt;
+         &lt;cepOrigem&gt;${calculaTarifaServico.cepOrigem}&lt;/cepOrigem&gt;
+         &lt;!--Optional:--&gt;
+         &lt;cepDestino&gt;${calculaTarifaServico.cepDestino}&lt;/cepDestino&gt;
+         &lt;!--Optional:--&gt;
+         &lt;peso&gt;${calculaTarifaServico.peso}&lt;/peso&gt;
+         &lt;!--Optional:--&gt;
+         &lt;codFormato&gt;${calculaTarifaServico.codFormato}&lt;/codFormato&gt;
+         &lt;!--Optional:--&gt;
+         &lt;comprimento&gt;${calculaTarifaServico.comprimento}&lt;/comprimento&gt;
+         &lt;!--Optional:--&gt;
+         &lt;altura&gt;${calculaTarifaServico.altura}&lt;/altura&gt;
+         &lt;!--Optional:--&gt;
+         &lt;largura&gt;${calculaTarifaServico.largura}&lt;/largura&gt;
+         &lt;!--Optional:--&gt;
+         &lt;diametro&gt;${calculaTarifaServico.diametro}&lt;/diametro&gt;
+         &lt;!--Optional:--&gt;
+         &lt;codMaoPropria&gt;${calculaTarifaServico.codMaoPropria}&lt;/codMaoPropria&gt;
+         &lt;!--Optional:--&gt;
+         &lt;valorDeclarado&gt;${calculaTarifaServico.valorDeclarado}&lt;/valorDeclarado&gt;
+         &lt;!--Optional:--&gt;
+         &lt;codAvisoRecebimento&gt;${calculaTarifaServico.codAvisoRecebimento}&lt;/codAvisoRecebimento&gt;
+      &lt;/cli:calculaTarifaServico&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;]]&gt;&lt;/envelope&gt;&lt;function_name&gt;calculaTarifaServico&lt;/function_name&gt;&lt;key_store/&gt;&lt;key_store_alias/&gt;&lt;key_store_password/&gt;&lt;lock&gt;false&lt;/lock&gt;&lt;protocol_profile/&gt;&lt;qualified_name&gt;Correios [ calculaTarifaServico ]&lt;/qualified_name&gt;&lt;soap_action/&gt;&lt;soap_endpoint&gt;https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente&lt;/soap_endpoint&gt;&lt;soap_message display_value="Correios"&gt;e69ad514db1100106240a3a948961921&lt;/soap_message&gt;&lt;strip_whitespace&gt;false&lt;/strip_whitespace&gt;&lt;sys_class_name&gt;sys_soap_message_function&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-19 15:32:07&lt;/sys_created_on&gt;&lt;sys_id&gt;0fca9d14db1100106240a3a948961906&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;calculaTarifaServico&lt;/sys_name&gt;&lt;sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e"&gt;f58dcd0adba000106240a3a948961904&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Proposições Legislativas"&gt;f58dcd0adba000106240a3a948961904&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_soap_message_function_0fca9d14db1100106240a3a948961906&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-19 15:32:07&lt;/sys_updated_on&gt;&lt;use_basic_auth&gt;false&lt;/use_basic_auth&gt;&lt;use_mid_server/&gt;&lt;use_ws_security&gt;false&lt;/use_ws_security&gt;&lt;ws_security_type/&gt;&lt;ws_security_username_profile/&gt;&lt;ws_security_x509_profile/&gt;&lt;/sys_soap_message_function&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>21094870</payload_hash>
+        <record_name>calculaTarifaServico</record_name>
+        <reverted_from/>
+        <source>798dcd0adba000106240a3a948961906</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-19 15:32:07</sys_created_on>
+        <sys_id>cfca9d14db1100106240a3a948961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e844ad85c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-19 15:32:07</sys_updated_on>
+        <type>SOAP Message Function</type>
+        <update_guid>0bca9d14161100100225a5c69bb1fe07</update_guid>
+        <update_guid_history>0bca9d14161100100225a5c69bb1fe07:21094870</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-19 21:31:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_soap_message_function">sys_soap_message_function</sys_db_object>
+        <sys_id>74a65d869f0b47e0a1386cf05e822400</sys_id>
+        <sys_metadata>0fca9d14db1100106240a3a948961906</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>calculaTarifaServico</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_parent display_value="Correios">e69ad514db1100106240a3a948961921</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_scope_delete display_value="">29e6bbc8b0b34a9087f9c93b1d8f6c10</sys_scope_delete>
+        <sys_update_name>sys_soap_message_function_0fca9d14db1100106240a3a948961906</sys_update_name>
+        <sys_update_version display_value="sys_soap_message_function_0fca9d14db1100106240a3a948961906">cfca9d14db1100106240a3a948961907</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-19 21:31:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

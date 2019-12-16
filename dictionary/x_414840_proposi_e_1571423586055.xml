@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Proposi E 1571423586055" max_length="40" name="x_414840_proposi_e_1571423586055" type="collection">
+        <element attributes="import_attribute_name=ANDP_CHV_IDE" label="ANDP_CHV_IDE" max_length="40" name="u_andp_chv_ide" type="integer"/>
+        <element attributes="import_attribute_name=ANDP_COD_ORGAO" label="ANDP_COD_ORGAO" max_length="40" name="u_andp_cod_orgao" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ANDP_DAT" label="ANDP_DAT" max_length="40" name="u_andp_dat" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ANDP_DAT_INCL_WS" label="ANDP_DAT_INCL_WS" max_length="40" name="u_andp_dat_incl_ws" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ANDP_NOM_ORGAO" label="ANDP_NOM_ORGAO" max_length="69" name="u_andp_nom_orgao" type="string"/>
+        <element attributes="import_attribute_name=ANDP_PROP_CHV_IDE" label="ANDP_PROP_CHV_IDE" max_length="40" name="u_andp_prop_chv_ide" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ANDP_TXT_DESCRICAO" label="ANDP_TXT_DESCRICAO" max_length="567" name="u_andp_txt_descricao" type="string"/>
+        <element attributes="import_attribute_name=AND_PROP_CHV_IDE_WS" label="AND_PROP_CHV_IDE_WS" max_length="40" name="u_and_prop_chv_ide_ws" type="integer"/>
+    </element>
+</database>

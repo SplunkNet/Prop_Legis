@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="DELETE">
+        <name>IdProposicao</name>
+        <soap_function display_value="ProposicoesSoap12.ObterProposicaoPorID">2eab4260db5140106240a3a948961946</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 13:46:57</sys_created_on>
+        <sys_id>21eb0620db5140106240a3a9489619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IdProposicao</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_21eb0620db5140106240a3a9489619e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 13:46:57</sys_updated_on>
+        <type>string</type>
+        <value>13458</value>
+    </sys_soap_message_parameters>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</application>
+        <file_path/>
+        <instance_id>5f0d90fddba13b048aea21c405961922</instance_id>
+        <instance_name>dev86024</instance_name>
+        <name>sys_soap_message_parameters_21eb0620db5140106240a3a9489619e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters"><sys_soap_message_parameters action="INSERT_OR_UPDATE"><name>IdProposicao</name><soap_function display_value="ProposicoesSoap12.ObterProposicaoPorID">2eab4260db5140106240a3a948961946</soap_function><sys_class_name>sys_soap_message_parameters</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-20 13:46:57</sys_created_on><sys_id>21eb0620db5140106240a3a9489619e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IdProposicao</sys_name><sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package><sys_policy/><sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope><sys_update_name>sys_soap_message_parameters_21eb0620db5140106240a3a9489619e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-20 13:46:57</sys_updated_on><type>string</type><value>13458</value></sys_soap_message_parameters></record_update>]]></payload>
+        <payload_hash>-1946502187</payload_hash>
+        <record_name>IdProposicao</record_name>
+        <reverted_from/>
+        <source>798dcd0adba000106240a3a948961906</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 13:46:57</sys_created_on>
+        <sys_id>dc5c42a0db5140106240a3a948961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8910ebc00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 13:46:57</sys_updated_on>
+        <type>Variable Substitutions</type>
+        <update_guid>185c42a087514010fdb82d4ab3056731</update_guid>
+        <update_guid_history>185c42a087514010fdb82d4ab3056731:-1946502187</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 21:47:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_soap_message_parameters">sys_soap_message_parameters</sys_db_object>
+        <sys_id>68dff41ca66e4b09bc716caa70dadda9</sys_id>
+        <sys_metadata>21eb0620db5140106240a3a9489619e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IdProposicao</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_scope_delete display_value="">29e6bbc8b0b34a9087f9c93b1d8f6c10</sys_scope_delete>
+        <sys_update_name>sys_soap_message_parameters_21eb0620db5140106240a3a9489619e7</sys_update_name>
+        <sys_update_version display_value="sys_soap_message_parameters_21eb0620db5140106240a3a9489619e7">dc5c42a0db5140106240a3a948961931</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-21 21:47:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

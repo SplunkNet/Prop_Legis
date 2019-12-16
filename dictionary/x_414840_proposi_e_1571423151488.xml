@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Proposi E 1571423151488" max_length="40" name="x_414840_proposi_e_1571423151488" type="collection">
+        <element attributes="import_attribute_name=ORPO_CHV_IDE" label="ORPO_CHV_IDE" max_length="40" name="u_orpo_chv_ide" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ORPO_NOM_ORGAO_POL" label="ORPO_NOM_ORGAO_POL" max_length="59" name="u_orpo_nom_orgao_pol" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ORPO_SGL_ORGAO_POL" label="ORPO_SGL_ORGAO_POL" max_length="40" name="u_orpo_sgl_orgao_pol" type="string"/>
+    </element>
+</database>

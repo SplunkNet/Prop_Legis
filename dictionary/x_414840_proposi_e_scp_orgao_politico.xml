@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Orgão Político" max_length="40" name="x_414840_proposi_e_scp_orgao_politico" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="ORPO_CHV_IDE" max_length="40" name="orpo_chv_ide" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="ORPO_NOM_ORGAO_POL" max_length="59" name="orpo_nom_orgao_pol" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ORPO_SGL_ORGAO_POL" max_length="40" name="orpo_sgl_orgao_pol" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Andamento" language="en" table="x_414840_proposi_e_scp_andamento_cs">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Andamento</label>
+            <language>en</language>
+            <name>x_414840_proposi_e_scp_andamento_cs</name>
+            <plural>Andamentos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-18 18:33:29</sys_created_on>
+            <sys_id>27619d0edba000106240a3a948961919</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Andamento</sys_name>
+            <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+            <sys_update_name>sys_documentation_x_414840_proposi_e_scp_andamento_cs__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-24 22:38:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

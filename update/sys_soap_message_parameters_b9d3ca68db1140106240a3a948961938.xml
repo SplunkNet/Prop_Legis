@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>idProposicao</name>
+        <soap_function display_value="RetornaProposiçãoID">302f361cdb5500106240a3a948961929</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 13:10:33</sys_created_on>
+        <sys_id>b9d3ca68db1140106240a3a948961938</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>idProposicao</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_b9d3ca68db1140106240a3a948961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 13:25:37</sys_updated_on>
+        <type>string</type>
+        <value>123654</value>
+    </sys_soap_message_parameters>
+</record_update>

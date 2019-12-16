@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_414840_proposi_e.ScriptIncludeProposicoes</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ScriptIncludeProposicoes</name>
+        <script><![CDATA[var ScriptIncludeProposicoes = Class.create();
+ScriptIncludeProposicoes.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    getIdProposicao: function() {
+        //var chv_ide_prop_ws = '2193904';
+        var chv_ide_prop_ws = this.getParameter('sysparm_numero'); 
+
+
+        var response = '';
+        var responseBody = '';
+
+        try {
+            var s = new sn_ws.SOAPMessageV2('x_414840_proposi_e.ProposicoesWs', 'ProposicoesSoap.ObterProposicaoPorID');
+
+            s.setStringParameterNoEscape('ObterProposicaoPorID.idProp', chv_ide_prop_ws);
+            response = s.execute();
+            responseBody = response.getBody();
+            var status = response.getStatusCode();
+        } catch (ex) {
+            var message = ex.message;
+            responseBody = ex.message;
+        }
+        return responseBody;
+    },
+
+    type: 'ScriptIncludeProposicoes'
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-21 20:18:13</sys_created_on>
+        <sys_id>ca3ee481db1100106240a3a948961950</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>ScriptIncludeProposicoes</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_script_include_ca3ee481db1100106240a3a948961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-22 14:35:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

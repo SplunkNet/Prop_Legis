@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message">
+    <sys_soap_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <download_wsdl>true</download_wsdl>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <name>RetornaProposiçãoID</name>
+        <protocol_profile/>
+        <sys_class_name>sys_soap_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-19 22:49:53</sys_created_on>
+        <sys_id>087e761cdb5500106240a3a9489619d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RetornaProposiçãoID</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_soap_message_087e761cdb5500106240a3a9489619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 13:08:54</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <wsdl>http://www.camara.gov.br/SitCamaraWS/Proposicoes.asmx?wsdl</wsdl>
+        <wsdl_xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://www.camara.gov.br/SitCamaraWS/Proposicoes" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="https://www.camara.gov.br/SitCamaraWS/Proposicoes" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://www.camara.gov.br/SitCamaraWS/Proposicoes">
+      <s:element name="ObterVotacaoProposicao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ano" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterVotacaoProposicaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterVotacaoProposicaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterVotacaoProposicaoPorID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idProposicao" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterVotacaoProposicaoPorIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterVotacaoProposicaoPorIDResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obterProposicaoPrincipal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idProposicao" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obterProposicaoPrincipalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obterProposicaoPrincipalResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obterHierarquiaProposicao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idProposicao" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obterHierarquiaProposicaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obterHierarquiaProposicaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProposicao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ano" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProposicaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterProposicaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProposicaoIDOrgao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ano" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idOrgao" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProposicaoIDOrgaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterProposicaoIDOrgaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProposicaoPorID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idProp" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProposicaoPorIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterProposicaoPorIDResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarSiglasTipoProposicao">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarSiglasTipoProposicaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarSiglasTipoProposicaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarTiposAutores">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarTiposAutoresResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarTiposAutoresResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarSituacoesProposicao">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListarSituacoesProposicaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarSituacoesProposicaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarProposicoes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sigla" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="numero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ano" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datApresentacaoIni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datApresentacaoFim" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idTipoAutor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="parteNomeAutor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="siglaPartidoAutor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="siglaUFAutor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="generoAutor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codEstado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="codOrgaoEstado" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="emTramitacao" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarProposicoesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarProposicoesResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarProposicoesTramitadasNoPeriodo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInicio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtFim" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarProposicoesTramitadasNoPeriodoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarProposicoesTramitadasNoPeriodoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarProposicoesVotadasEmPlenario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ano" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarProposicoesVotadasEmPlenarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarProposicoesVotadasEmPlenarioResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarAutoresProposicao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codProposicao" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListarAutoresProposicaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListarAutoresProposicaoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObterVotacaoProposicaoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterVotacaoProposicao" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterVotacaoProposicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoPorIDSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterVotacaoProposicaoPorID" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoPorIDSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterVotacaoProposicaoPorIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="obterProposicaoPrincipalSoapIn">
+    <wsdl:part name="parameters" element="tns:obterProposicaoPrincipal" />
+  </wsdl:message>
+  <wsdl:message name="obterProposicaoPrincipalSoapOut">
+    <wsdl:part name="parameters" element="tns:obterProposicaoPrincipalResponse" />
+  </wsdl:message>
+  <wsdl:message name="obterHierarquiaProposicaoSoapIn">
+    <wsdl:part name="parameters" element="tns:obterHierarquiaProposicao" />
+  </wsdl:message>
+  <wsdl:message name="obterHierarquiaProposicaoSoapOut">
+    <wsdl:part name="parameters" element="tns:obterHierarquiaProposicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterProposicao" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterProposicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoIDOrgaoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterProposicaoIDOrgao" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoIDOrgaoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterProposicaoIDOrgaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoPorIDSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterProposicaoPorID" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoPorIDSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterProposicaoPorIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarSiglasTipoProposicaoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarSiglasTipoProposicao" />
+  </wsdl:message>
+  <wsdl:message name="ListarSiglasTipoProposicaoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarSiglasTipoProposicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarTiposAutoresSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarTiposAutores" />
+  </wsdl:message>
+  <wsdl:message name="ListarTiposAutoresSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarTiposAutoresResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarSituacoesProposicaoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarSituacoesProposicao" />
+  </wsdl:message>
+  <wsdl:message name="ListarSituacoesProposicaoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarSituacoesProposicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarProposicoes" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarProposicoesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesTramitadasNoPeriodoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarProposicoesTramitadasNoPeriodo" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesTramitadasNoPeriodoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarProposicoesTramitadasNoPeriodoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesVotadasEmPlenarioSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarProposicoesVotadasEmPlenario" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesVotadasEmPlenarioSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarProposicoesVotadasEmPlenarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListarAutoresProposicaoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListarAutoresProposicao" />
+  </wsdl:message>
+  <wsdl:message name="ListarAutoresProposicaoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListarAutoresProposicaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoHttpGetIn">
+    <wsdl:part name="tipo" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoPorIDHttpGetIn">
+    <wsdl:part name="idProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoPorIDHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="obterProposicaoPrincipalHttpGetIn">
+    <wsdl:part name="idProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="obterProposicaoPrincipalHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="obterHierarquiaProposicaoHttpGetIn">
+    <wsdl:part name="idProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="obterHierarquiaProposicaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoHttpGetIn">
+    <wsdl:part name="tipo" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoIDOrgaoHttpGetIn">
+    <wsdl:part name="tipo" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+    <wsdl:part name="idOrgao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoIDOrgaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoPorIDHttpGetIn">
+    <wsdl:part name="idProp" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoPorIDHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarSiglasTipoProposicaoHttpGetIn" />
+  <wsdl:message name="ListarSiglasTipoProposicaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarTiposAutoresHttpGetIn" />
+  <wsdl:message name="ListarTiposAutoresHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarSituacoesProposicaoHttpGetIn" />
+  <wsdl:message name="ListarSituacoesProposicaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesHttpGetIn">
+    <wsdl:part name="sigla" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+    <wsdl:part name="datApresentacaoIni" type="s:string" />
+    <wsdl:part name="datApresentacaoFim" type="s:string" />
+    <wsdl:part name="idTipoAutor" type="s:string" />
+    <wsdl:part name="parteNomeAutor" type="s:string" />
+    <wsdl:part name="siglaPartidoAutor" type="s:string" />
+    <wsdl:part name="siglaUFAutor" type="s:string" />
+    <wsdl:part name="generoAutor" type="s:string" />
+    <wsdl:part name="codEstado" type="s:string" />
+    <wsdl:part name="codOrgaoEstado" type="s:string" />
+    <wsdl:part name="emTramitacao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesTramitadasNoPeriodoHttpGetIn">
+    <wsdl:part name="dtInicio" type="s:string" />
+    <wsdl:part name="dtFim" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesTramitadasNoPeriodoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesVotadasEmPlenarioHttpGetIn">
+    <wsdl:part name="ano" type="s:string" />
+    <wsdl:part name="tipo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesVotadasEmPlenarioHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarAutoresProposicaoHttpGetIn">
+    <wsdl:part name="codProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarAutoresProposicaoHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoHttpPostIn">
+    <wsdl:part name="tipo" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoPorIDHttpPostIn">
+    <wsdl:part name="idProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterVotacaoProposicaoPorIDHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="obterProposicaoPrincipalHttpPostIn">
+    <wsdl:part name="idProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="obterProposicaoPrincipalHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="obterHierarquiaProposicaoHttpPostIn">
+    <wsdl:part name="idProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="obterHierarquiaProposicaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoHttpPostIn">
+    <wsdl:part name="tipo" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoIDOrgaoHttpPostIn">
+    <wsdl:part name="tipo" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+    <wsdl:part name="idOrgao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoIDOrgaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoPorIDHttpPostIn">
+    <wsdl:part name="idProp" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ObterProposicaoPorIDHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarSiglasTipoProposicaoHttpPostIn" />
+  <wsdl:message name="ListarSiglasTipoProposicaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarTiposAutoresHttpPostIn" />
+  <wsdl:message name="ListarTiposAutoresHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarSituacoesProposicaoHttpPostIn" />
+  <wsdl:message name="ListarSituacoesProposicaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesHttpPostIn">
+    <wsdl:part name="sigla" type="s:string" />
+    <wsdl:part name="numero" type="s:string" />
+    <wsdl:part name="ano" type="s:string" />
+    <wsdl:part name="datApresentacaoIni" type="s:string" />
+    <wsdl:part name="datApresentacaoFim" type="s:string" />
+    <wsdl:part name="idTipoAutor" type="s:string" />
+    <wsdl:part name="parteNomeAutor" type="s:string" />
+    <wsdl:part name="siglaPartidoAutor" type="s:string" />
+    <wsdl:part name="siglaUFAutor" type="s:string" />
+    <wsdl:part name="generoAutor" type="s:string" />
+    <wsdl:part name="codEstado" type="s:string" />
+    <wsdl:part name="codOrgaoEstado" type="s:string" />
+    <wsdl:part name="emTramitacao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesTramitadasNoPeriodoHttpPostIn">
+    <wsdl:part name="dtInicio" type="s:string" />
+    <wsdl:part name="dtFim" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesTramitadasNoPeriodoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesVotadasEmPlenarioHttpPostIn">
+    <wsdl:part name="ano" type="s:string" />
+    <wsdl:part name="tipo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarProposicoesVotadasEmPlenarioHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="ListarAutoresProposicaoHttpPostIn">
+    <wsdl:part name="codProposicao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ListarAutoresProposicaoHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:portType name="ProposicoesSoap">
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar os votos dos deputados para uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterVotacaoProposicaoSoapIn" />
+      <wsdl:output message="tns:ObterVotacaoProposicaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar os votos dos deputados para uma determinada proposição por ID</wsdl:documentation>
+      <wsdl:input message="tns:ObterVotacaoProposicaoPorIDSoapIn" />
+      <wsdl:output message="tns:ObterVotacaoProposicaoPorIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <wsdl:input message="tns:obterProposicaoPrincipalSoapIn" />
+      <wsdl:output message="tns:obterProposicaoPrincipalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <wsdl:input message="tns:obterHierarquiaProposicaoSoapIn" />
+      <wsdl:output message="tns:obterHierarquiaProposicaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoSoapIn" />
+      <wsdl:output message="tns:ObterProposicaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoIDOrgaoSoapIn" />
+      <wsdl:output message="tns:ObterProposicaoIDOrgaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoPorIDSoapIn" />
+      <wsdl:output message="tns:ObterProposicaoPorIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <wsdl:input message="tns:ListarSiglasTipoProposicaoSoapIn" />
+      <wsdl:output message="tns:ListarSiglasTipoProposicaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <wsdl:input message="tns:ListarTiposAutoresSoapIn" />
+      <wsdl:output message="tns:ListarTiposAutoresSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <wsdl:input message="tns:ListarSituacoesProposicaoSoapIn" />
+      <wsdl:output message="tns:ListarSituacoesProposicaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <wsdl:input message="tns:ListarProposicoesSoapIn" />
+      <wsdl:output message="tns:ListarProposicoesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista informação de Tramitação de Proposição por período</wsdl:documentation>
+      <wsdl:input message="tns:ListarProposicoesTramitadasNoPeriodoSoapIn" />
+      <wsdl:output message="tns:ListarProposicoesTramitadasNoPeriodoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista Proposições votadas em plenário no ano</wsdl:documentation>
+      <wsdl:input message="tns:ListarProposicoesVotadasEmPlenarioSoapIn" />
+      <wsdl:output message="tns:ListarProposicoesVotadasEmPlenarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista Autores de um determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ListarAutoresProposicaoSoapIn" />
+      <wsdl:output message="tns:ListarAutoresProposicaoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ProposicoesHttpGet">
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar os votos dos deputados para uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterVotacaoProposicaoHttpGetIn" />
+      <wsdl:output message="tns:ObterVotacaoProposicaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar os votos dos deputados para uma determinada proposição por ID</wsdl:documentation>
+      <wsdl:input message="tns:ObterVotacaoProposicaoPorIDHttpGetIn" />
+      <wsdl:output message="tns:ObterVotacaoProposicaoPorIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <wsdl:input message="tns:obterProposicaoPrincipalHttpGetIn" />
+      <wsdl:output message="tns:obterProposicaoPrincipalHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <wsdl:input message="tns:obterHierarquiaProposicaoHttpGetIn" />
+      <wsdl:output message="tns:obterHierarquiaProposicaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoHttpGetIn" />
+      <wsdl:output message="tns:ObterProposicaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoIDOrgaoHttpGetIn" />
+      <wsdl:output message="tns:ObterProposicaoIDOrgaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoPorIDHttpGetIn" />
+      <wsdl:output message="tns:ObterProposicaoPorIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <wsdl:input message="tns:ListarSiglasTipoProposicaoHttpGetIn" />
+      <wsdl:output message="tns:ListarSiglasTipoProposicaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <wsdl:input message="tns:ListarTiposAutoresHttpGetIn" />
+      <wsdl:output message="tns:ListarTiposAutoresHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <wsdl:input message="tns:ListarSituacoesProposicaoHttpGetIn" />
+      <wsdl:output message="tns:ListarSituacoesProposicaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <wsdl:input message="tns:ListarProposicoesHttpGetIn" />
+      <wsdl:output message="tns:ListarProposicoesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista informação de Tramitação de Proposição por período</wsdl:documentation>
+      <wsdl:input message="tns:ListarProposicoesTramitadasNoPeriodoHttpGetIn" />
+      <wsdl:output message="tns:ListarProposicoesTramitadasNoPeriodoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista Proposições votadas em plenário no ano</wsdl:documentation>
+      <wsdl:input message="tns:ListarProposicoesVotadasEmPlenarioHttpGetIn" />
+      <wsdl:output message="tns:ListarProposicoesVotadasEmPlenarioHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista Autores de um determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ListarAutoresProposicaoHttpGetIn" />
+      <wsdl:output message="tns:ListarAutoresProposicaoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ProposicoesHttpPost">
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar os votos dos deputados para uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterVotacaoProposicaoHttpPostIn" />
+      <wsdl:output message="tns:ObterVotacaoProposicaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar os votos dos deputados para uma determinada proposição por ID</wsdl:documentation>
+      <wsdl:input message="tns:ObterVotacaoProposicaoPorIDHttpPostIn" />
+      <wsdl:output message="tns:ObterVotacaoProposicaoPorIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <wsdl:input message="tns:obterProposicaoPrincipalHttpPostIn" />
+      <wsdl:output message="tns:obterProposicaoPrincipalHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <wsdl:input message="tns:obterHierarquiaProposicaoHttpPostIn" />
+      <wsdl:output message="tns:obterHierarquiaProposicaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoHttpPostIn" />
+      <wsdl:output message="tns:ObterProposicaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoIDOrgaoHttpPostIn" />
+      <wsdl:output message="tns:ObterProposicaoIDOrgaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Listar informações de uma determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ObterProposicaoPorIDHttpPostIn" />
+      <wsdl:output message="tns:ObterProposicaoPorIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <wsdl:input message="tns:ListarSiglasTipoProposicaoHttpPostIn" />
+      <wsdl:output message="tns:ListarSiglasTipoProposicaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <wsdl:input message="tns:ListarTiposAutoresHttpPostIn" />
+      <wsdl:output message="tns:ListarTiposAutoresHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <wsdl:input message="tns:ListarSituacoesProposicaoHttpPostIn" />
+      <wsdl:output message="tns:ListarSituacoesProposicaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <wsdl:input message="tns:ListarProposicoesHttpPostIn" />
+      <wsdl:output message="tns:ListarProposicoesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista informação de Tramitação de Proposição por período</wsdl:documentation>
+      <wsdl:input message="tns:ListarProposicoesTramitadasNoPeriodoHttpPostIn" />
+      <wsdl:output message="tns:ListarProposicoesTramitadasNoPeriodoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista Proposições votadas em plenário no ano</wsdl:documentation>
+      <wsdl:input message="tns:ListarProposicoesVotadasEmPlenarioHttpPostIn" />
+      <wsdl:output message="tns:ListarProposicoesVotadasEmPlenarioHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Lista Autores de um determinada proposição</wsdl:documentation>
+      <wsdl:input message="tns:ListarAutoresProposicaoHttpPostIn" />
+      <wsdl:output message="tns:ListarAutoresProposicaoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ProposicoesSoap" type="tns:ProposicoesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterVotacaoProposicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterVotacaoProposicaoPorID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/obterProposicaoPrincipal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/obterHierarquiaProposicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterProposicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterProposicaoIDOrgao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterProposicaoPorID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarSiglasTipoProposicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarTiposAutores" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarSituacoesProposicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoesTramitadasNoPeriodo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoesVotadasEmPlenario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <soap:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarAutoresProposicao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProposicoesSoap12" type="tns:ProposicoesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterVotacaoProposicao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterVotacaoProposicaoPorID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/obterProposicaoPrincipal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/obterHierarquiaProposicao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterProposicao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterProposicaoIDOrgao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ObterProposicaoPorID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarSiglasTipoProposicao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarTiposAutores" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarSituacoesProposicao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoesTramitadasNoPeriodo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarProposicoesVotadasEmPlenario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <soap12:operation soapAction="https://www.camara.gov.br/SitCamaraWS/Proposicoes/ListarAutoresProposicao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProposicoesHttpGet" type="tns:ProposicoesHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <http:operation location="/ObterVotacaoProposicao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <http:operation location="/ObterVotacaoProposicaoPorID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <http:operation location="/obterProposicaoPrincipal" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <http:operation location="/obterHierarquiaProposicao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <http:operation location="/ObterProposicao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <http:operation location="/ObterProposicaoIDOrgao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <http:operation location="/ObterProposicaoPorID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <http:operation location="/ListarSiglasTipoProposicao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <http:operation location="/ListarTiposAutores" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <http:operation location="/ListarSituacoesProposicao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <http:operation location="/ListarProposicoes" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <http:operation location="/ListarProposicoesTramitadasNoPeriodo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <http:operation location="/ListarProposicoesVotadasEmPlenario" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <http:operation location="/ListarAutoresProposicao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ProposicoesHttpPost" type="tns:ProposicoesHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ObterVotacaoProposicao">
+      <http:operation location="/ObterVotacaoProposicao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterVotacaoProposicaoPorID">
+      <http:operation location="/ObterVotacaoProposicaoPorID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterProposicaoPrincipal">
+      <http:operation location="/obterProposicaoPrincipal" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obterHierarquiaProposicao">
+      <http:operation location="/obterHierarquiaProposicao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicao">
+      <http:operation location="/ObterProposicao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoIDOrgao">
+      <http:operation location="/ObterProposicaoIDOrgao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProposicaoPorID">
+      <http:operation location="/ObterProposicaoPorID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSiglasTipoProposicao">
+      <http:operation location="/ListarSiglasTipoProposicao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarTiposAutores">
+      <http:operation location="/ListarTiposAutores" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarSituacoesProposicao">
+      <http:operation location="/ListarSituacoesProposicao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoes">
+      <http:operation location="/ListarProposicoes" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesTramitadasNoPeriodo">
+      <http:operation location="/ListarProposicoesTramitadasNoPeriodo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarProposicoesVotadasEmPlenario">
+      <http:operation location="/ListarProposicoesVotadasEmPlenario" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarAutoresProposicao">
+      <http:operation location="/ListarAutoresProposicao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Proposicoes">
+    <wsdl:port name="ProposicoesSoap" binding="tns:ProposicoesSoap">
+      <soap:address location="https://www.camara.leg.br/SitCamaraWS/Proposicoes.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProposicoesSoap12" binding="tns:ProposicoesSoap12">
+      <soap12:address location="https://www.camara.leg.br/SitCamaraWS/Proposicoes.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProposicoesHttpGet" binding="tns:ProposicoesHttpGet">
+      <http:address location="http://www.camara.leg.br/SitCamaraWS/Proposicoes.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ProposicoesHttpPost" binding="tns:ProposicoesHttpPost">
+      <http:address location="http://www.camara.leg.br/SitCamaraWS/Proposicoes.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></wsdl_xml>
+    </sys_soap_message>
+</record_update>

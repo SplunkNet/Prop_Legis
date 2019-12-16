@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Proposições Legislativas">4ab1d58adba000106240a3a948961900</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage display_value="System Administration">c6336292eb830100d4360c505206fe36</homepage>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Home</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_home</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>Content Management &gt; Portal Page &gt; Proposições Legislativas</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 23:03:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc9805c8dbf840106240a3a948961989</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_app_module_cc9805c8dbf840106240a3a948961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 12:51:14</sys_updated_on>
+        <timeline_page/>
+        <title>Home</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>******</window_name>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</application>
+        <file_path/>
+        <instance_id>5f0d90fddba13b048aea21c405961922</instance_id>
+        <instance_name>dev86024</instance_name>
+        <name>sys_app_module_cc9805c8dbf840106240a3a948961989</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Proposições Legislativas">4ab1d58adba000106240a3a948961900</application><assessment/><device_type/><filter/><hint/><homepage display_value="System Administration">c6336292eb830100d4360c505206fe36</homepage><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Home</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>sys_home</name><order/><override_menu_roles>false</override_menu_roles><query>Content Management &gt; Portal Page &gt; Proposições Legislativas</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-24 23:03:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cc9805c8dbf840106240a3a948961989</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Home</sys_name><sys_overrides/><sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package><sys_policy/><sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope><sys_update_name>sys_app_module_cc9805c8dbf840106240a3a948961989</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-25 12:51:14</sys_updated_on><timeline_page/><title>Home</title><uncancelable>false</uncancelable><view_name/><window_name>******</window_name></sys_app_module></record_update>]]></payload>
+        <payload_hash>-97346975</payload_hash>
+        <record_name>Home</record_name>
+        <reverted_from/>
+        <source>798dcd0adba000106240a3a948961906</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 12:51:14</sys_created_on>
+        <sys_id>e2368090dbb480106240a3a948961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e02f8900f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 12:51:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>6e3680903cb480108b1de4aba0b34400</update_guid>
+        <update_guid_history>6e3680903cb480108b1de4aba0b34400:-97346975,64b44c9c0c7480108eb770779808e97d:-779275995,8a7acd0c3af8401011bd0bd43fd31e3d:1094185849,1df94dc809f84010c6aecd1d443b6d1f:2116398535,017905c84ef84010e86532b4282c7b31:1219366864,edc8c9c8f1f840101f9b5d55e4a074f9:330958752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home">78bcb414db7880106240a3a9489619f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-25 16:49:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3128134290cf4c609b9f42f2f5baa199</sys_id>
+        <sys_metadata>cc9805c8dbf840106240a3a948961989</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_scope_delete display_value="">29e6bbc8b0b34a9087f9c93b1d8f6c10</sys_scope_delete>
+        <sys_update_name>sys_app_module_cc9805c8dbf840106240a3a948961989</sys_update_name>
+        <sys_update_version display_value="sys_app_module_cc9805c8dbf840106240a3a948961989">e2368090dbb480106240a3a948961901</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-25 16:49:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-11 20:36:09</sys_created_on>
+        <sys_id>6f739131db4100106240a3a94896197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_414840_proposi_e_scp_andamento_cs</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_db_view_table_6f739131db4100106240a3a94896197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-11 20:36:09</sys_updated_on>
+        <table>x_414840_proposi_e_scp_andamento_cs</table>
+        <variable_prefix>ANDPROP</variable_prefix>
+        <view display_value="x_414840_proposi_e_proposi__esandamentos">f3221531db4100106240a3a94896193f</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

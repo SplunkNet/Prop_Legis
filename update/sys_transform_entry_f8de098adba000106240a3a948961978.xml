@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="x_414840_proposi_e_scp_proposicao_cs_transform_map">7cde490adba000106240a3a948961902</map>
+        <reference_value_field/>
+        <source_field>u_prop_chv_ide</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_414840_proposi_e_1571422853539</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-18 18:22:06</sys_created_on>
+        <sys_id>f8de098adba000106240a3a948961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_prop_chv_ide</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_transform_entry_f8de098adba000106240a3a948961978</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-18 18:22:06</sys_updated_on>
+        <target_field>prop_chv_ide</target_field>
+        <target_table>x_414840_proposi_e_scp_proposicao_cs</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

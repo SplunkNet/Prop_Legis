@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="x_414840_proposi_e_m2m_orgão_políti_andamentos" max_length="40" name="x_414840_proposi_e_m2m_orgao_politi_andamentos" type="collection">
+        <element attributes="encode_utf8=false" label="Órgão Político" max_length="32" name="andamento" reference="x_414840_proposi_e_m2m_orgao_politi_andamentos" type="reference"/>
+        <element attributes="encode_utf8=false" label="Orgão Político" max_length="32" name="orgao_politico" reference="x_414840_proposi_e_scp_orgao_politico" type="reference"/>
+        <index name="index">
+            <element name="andamento"/>
+        </index>
+        <index name="index2">
+            <element name="orgao_politico"/>
+        </index>
+    </element>
+</database>

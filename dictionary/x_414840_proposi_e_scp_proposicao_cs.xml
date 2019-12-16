@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Proposi E Scp Proposicao Cs" max_length="40" name="x_414840_proposi_e_scp_proposicao_cs" type="collection">
+        <element label="dados" max_length="500" name="dados" type="string"/>
+        <element label="Ementa" max_length="4000" name="ementa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="PROP_ANO" max_length="40" name="prop_ano" type="integer"/>
+        <element label="PROP_BLN_PRE_CAD" max_length="40" name="prop_bln_pre_cad" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_CASA" max_length="40" name="prop_casa" type="string"/>
+        <element label="PROP_CHV_IDE" max_length="40" name="prop_chv_ide" type="integer"/>
+        <element label="PROP_CHV_IDE_PROPOSICAO_WS" max_length="40" name="prop_chv_ide_proposicao_ws" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_CHV_USU_CAD" max_length="40" name="prop_chv_usu_cad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_ANALISE" max_length="40" name="prop_dat_analise" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_CAD" max_length="40" name="prop_dat_cad" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_PROPOSICAO" max_length="40" name="prop_dat_proposicao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_ULT_ATU" max_length="40" name="prop_dat_ult_atu" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_DAT_ULT_DESPACHO" max_length="40" name="prop_dat_ult_despacho" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_LINK" max_length="75" name="prop_link" type="string"/>
+        <element label="PROP_NUMERO" max_length="40" name="prop_numero" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_REG_TRAMITACAO" max_length="40" name="prop_reg_tramitacao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_SGL_ORGAO" max_length="40" name="prop_sgl_orgao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_SIT_CASA" max_length="47" name="prop_sit_casa" type="string"/>
+        <element label="PROP_TIPR_CHV_IDE" max_length="40" name="prop_tipr_chv_ide" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_APREC" max_length="71" name="prop_txt_aprec" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_EMENTA" max_length="313" name="prop_txt_ementa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_EXPL_EMENTA" max_length="40" name="prop_txt_expl_ementa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROP_TXT_ULT_DESPACHO" max_length="546" name="prop_txt_ult_despacho" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Tema" max_length="2000" name="tema" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="x_414840_proposi_e_scp_andamento_cs" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_3" reference="cmdb_class_relationships" type="glide_list"/>
+        <element attributes="encode_utf8=false" dependent="prop_chv_ide" dependent_on_field="prop_chv_ide" label="New Reference" max_length="32" name="u_reference_1" reference="x_414840_proposi_e_scp_andamento_cs" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" dependent="prop_chv_ide" dependent_on_field="prop_chv_ide" label="New Reference" max_length="32" name="u_reference_2" reference="x_414840_proposi_e_m2m_andamentos_proposi_e_15" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" dependent="prop_chv_ide" dependent_on_field="prop_chv_ide" label="New Reference" max_length="32" name="u_reference_4" reference="m2m_blacklist_search_suggestion" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_414840_proposi_e_Pagina_TESTE_MODAL.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<g:evaluate var="jvar_queryTerms"
+   expression="RP.getWindowProperties().get('queryTerms')" />
+  <iframe src='http://www.dmoz.org/search?q=${jvar_queryTerms}' width='700' height='300'>
+    Please Enable iFrames</iframe>
+	
+</j:jelly>]]></html>
+        <name>Pagina_TESTE_MODAL</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 20:08:43</sys_created_on>
+        <sys_id>2ae61b63dbe400106240a3a94896199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pagina_TESTE_MODAL</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_update_name>sys_ui_page_2ae61b63dbe400106240a3a94896199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 20:08:43</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</application>
+        <file_path/>
+        <instance_id>5f0d90fddba13b048aea21c405961922</instance_id>
+        <instance_name>dev86024</instance_name>
+        <name>sys_ui_page_2ae61b63dbe400106240a3a94896199e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_414840_proposi_e_Pagina_TESTE_MODAL.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+	&lt;g:evaluate var="jvar_queryTerms"
+   expression="RP.getWindowProperties().get('queryTerms')" /&gt;
+  &lt;iframe src='http://www.dmoz.org/search?q=${jvar_queryTerms}' width='700' height='300'&gt;
+    Please Enable iFrames&lt;/iframe&gt;
+	
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;Pagina_TESTE_MODAL&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-23 20:08:43&lt;/sys_created_on&gt;&lt;sys_id&gt;2ae61b63dbe400106240a3a94896199e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Pagina_TESTE_MODAL&lt;/sys_name&gt;&lt;sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e"&gt;f58dcd0adba000106240a3a948961904&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Proposições Legislativas"&gt;f58dcd0adba000106240a3a948961904&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_2ae61b63dbe400106240a3a94896199e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-23 20:08:43&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1134199197</payload_hash>
+        <record_name>Pagina_TESTE_MODAL</record_name>
+        <reverted_from/>
+        <source>798dcd0adba000106240a3a948961906</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 20:08:43</sys_created_on>
+        <sys_id>23271f23dbe400106240a3a9489619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dfa3c5f7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 20:08:43</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>6b271f2304e4001090efbe5ceed18dc8</update_guid>
+        <update_guid_history>6b271f2304e4001090efbe5ceed18dc8:-1134199197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 20:13:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>08dd9bfffbb9437d918621b323d35721</sys_id>
+        <sys_metadata>2ae61b63dbe400106240a3a94896199e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pagina_TESTE_MODAL</sys_name>
+        <sys_package display_value="Proposições Legislativas" source="x_414840_proposi_e">f58dcd0adba000106240a3a948961904</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Proposições Legislativas">f58dcd0adba000106240a3a948961904</sys_scope>
+        <sys_scope_delete display_value="">29e6bbc8b0b34a9087f9c93b1d8f6c10</sys_scope_delete>
+        <sys_update_name>sys_ui_page_2ae61b63dbe400106240a3a94896199e</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_2ae61b63dbe400106240a3a94896199e">23271f23dbe400106240a3a9489619c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 20:13:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
